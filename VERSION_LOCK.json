@@ -1,0 +1,471 @@
+{
+  "version": "SDP_TABLE2_TABLE5_ALIGNED_20261021",
+  "distribution": "anonymous-reproduction",
+  "check_method": "file size (bytes) and CRC32; accidental-change detection only",
+  "files": {
+    ".gitattributes": {
+      "size_bytes": 83,
+      "crc32": "8ca59701"
+    },
+    ".gitignore": {
+      "size_bytes": 181,
+      "crc32": "5113ae15"
+    },
+    "FROZEN_PARAMETERS.json": {
+      "size_bytes": 1129,
+      "crc32": "aa9baae3"
+    },
+    "README.md": {
+      "size_bytes": 6453,
+      "crc32": "03e90ced"
+    },
+    "THIRD_PARTY_NOTICES.md": {
+      "size_bytes": 1099,
+      "crc32": "89127a9c"
+    },
+    "configs/data_files.json": {
+      "size_bytes": 272,
+      "crc32": "e0f75518"
+    },
+    "configs/experiments.json": {
+      "size_bytes": 3492,
+      "crc32": "4c9ce5cb"
+    },
+    "data_preparation/__init__.py": {
+      "size_bytes": 0,
+      "crc32": "00000000"
+    },
+    "data_preparation/kelmarsh_prepare.py": {
+      "size_bytes": 9519,
+      "crc32": "65712a40"
+    },
+    "data_preparation/kelmarsh_transform.py": {
+      "size_bytes": 1316,
+      "crc32": "f582aed3"
+    },
+    "dp_safety/__init__.py": {
+      "size_bytes": 81,
+      "crc32": "15c2e05e"
+    },
+    "dp_safety/aggregation.py": {
+      "size_bytes": 4326,
+      "crc32": "94512b3b"
+    },
+    "dp_safety/parameters.py": {
+      "size_bytes": 60,
+      "crc32": "9d9510cd"
+    },
+    "dp_safety/rr.py": {
+      "size_bytes": 1478,
+      "crc32": "bc9c16c1"
+    },
+    "exp5/__init__.py": {
+      "size_bytes": 68,
+      "crc32": "0ba98e4b"
+    },
+    "exp5/algorithms.py": {
+      "size_bytes": 10786,
+      "crc32": "8fc8966c"
+    },
+    "exp5/common.py": {
+      "size_bytes": 1338,
+      "crc32": "438d3f08"
+    },
+    "exp5/lasso_gram.py": {
+      "size_bytes": 2408,
+      "crc32": "f9a5d265"
+    },
+    "exp5/names.py": {
+      "size_bytes": 1273,
+      "crc32": "7a7a922a"
+    },
+    "exp5/parameter_policy.py": {
+      "size_bytes": 794,
+      "crc32": "ec506fa5"
+    },
+    "exp5/privacy.py": {
+      "size_bytes": 1343,
+      "crc32": "4690268f"
+    },
+    "exp5/runtime_checks.py": {
+      "size_bytes": 4965,
+      "crc32": "9792def1"
+    },
+    "exp5/sample_fast.py": {
+      "size_bytes": 4503,
+      "crc32": "e0886423"
+    },
+    "exp5/sample_ridge.py": {
+      "size_bytes": 6050,
+      "crc32": "c6dea520"
+    },
+    "exp5/two_local.py": {
+      "size_bytes": 5948,
+      "crc32": "ebd88493"
+    },
+    "exp5/two_solver.py": {
+      "size_bytes": 7518,
+      "crc32": "8ff78007"
+    },
+    "lasso_threshold_v1/__init__.py": {
+      "size_bytes": 0,
+      "crc32": "00000000"
+    },
+    "lasso_threshold_v1/dataset.py": {
+      "size_bytes": 1469,
+      "crc32": "d1776e2d"
+    },
+    "lasso_threshold_v1/mechanism/__init__.py": {
+      "size_bytes": 0,
+      "crc32": "00000000"
+    },
+    "lasso_threshold_v1/mechanism/appendix.py": {
+      "size_bytes": 4508,
+      "crc32": "247f7ea7"
+    },
+    "lasso_threshold_v1/mechanism/checks.py": {
+      "size_bytes": 1765,
+      "crc32": "506adf45"
+    },
+    "lasso_threshold_v1/mechanism/core.py": {
+      "size_bytes": 37251,
+      "crc32": "4f039688"
+    },
+    "lasso_threshold_v1/mechanism/local.py": {
+      "size_bytes": 4274,
+      "crc32": "0fea003a"
+    },
+    "lasso_threshold_v1/mechanism/privacy_accountant.py": {
+      "size_bytes": 7651,
+      "crc32": "d1b50bf2"
+    },
+    "lasso_threshold_v1/mechanism/proposed.py": {
+      "size_bytes": 14730,
+      "crc32": "38d7c60c"
+    },
+    "lasso_threshold_v1/test_threshold.py": {
+      "size_bytes": 1915,
+      "crc32": "f0228588"
+    },
+    "paper_suite/__init__.py": {
+      "size_bytes": 63,
+      "crc32": "32855018"
+    },
+    "paper_suite/algorithms/__init__.py": {
+      "size_bytes": 80,
+      "crc32": "867f4ba1"
+    },
+    "paper_suite/algorithms/common.py": {
+      "size_bytes": 2879,
+      "crc32": "19748c6e"
+    },
+    "paper_suite/algorithms/iht_paper_profile.json": {
+      "size_bytes": 2244,
+      "crc32": "272ea0eb"
+    },
+    "paper_suite/algorithms/iht_selected_profile.py": {
+      "size_bytes": 551,
+      "crc32": "9f554899"
+    },
+    "paper_suite/algorithms/iht_stabilized_profile.py": {
+      "size_bytes": 671,
+      "crc32": "095bed93"
+    },
+    "paper_suite/algorithms/ldp_iht.py": {
+      "size_bytes": 10572,
+      "crc32": "1fc7fb3c"
+    },
+    "paper_suite/algorithms/nonprivate_lasso.py": {
+      "size_bytes": 1586,
+      "crc32": "430feb8b"
+    },
+    "paper_suite/algorithms/sample_sdp.py": {
+      "size_bytes": 2484,
+      "crc32": "420edddb"
+    },
+    "paper_suite/algorithms/sample_sdp_core.py": {
+      "size_bytes": 17489,
+      "crc32": "696bd44f"
+    },
+    "paper_suite/algorithms/two_slr_author.py": {
+      "size_bytes": 1926,
+      "crc32": "e57d94ed"
+    },
+    "paper_suite/algorithms/two_slr_paper.py": {
+      "size_bytes": 16599,
+      "crc32": "bbc12bed"
+    },
+    "paper_suite/checksum.py": {
+      "size_bytes": 1035,
+      "crc32": "1b89b033"
+    },
+    "paper_suite/config.py": {
+      "size_bytes": 4777,
+      "crc32": "d041c76f"
+    },
+    "paper_suite/data.py": {
+      "size_bytes": 3295,
+      "crc32": "604fa23e"
+    },
+    "paper_suite/datasets.py": {
+      "size_bytes": 3207,
+      "crc32": "5d32b811"
+    },
+    "paper_suite/file_lock.py": {
+      "size_bytes": 1403,
+      "crc32": "640eafa4"
+    },
+    "paper_suite/frozen.py": {
+      "size_bytes": 1061,
+      "crc32": "0e1f3668"
+    },
+    "paper_suite/full_experiment.py": {
+      "size_bytes": 20946,
+      "crc32": "d3da5140"
+    },
+    "paper_suite/metrics.py": {
+      "size_bytes": 670,
+      "crc32": "dbcd7bda"
+    },
+    "paper_suite/release_check.py": {
+      "size_bytes": 6680,
+      "crc32": "a11411d3"
+    },
+    "paper_suite/run_real.py": {
+      "size_bytes": 4983,
+      "crc32": "ad0512d9"
+    },
+    "paper_suite/run_synthetic.py": {
+      "size_bytes": 4609,
+      "crc32": "a68fdc84"
+    },
+    "paper_suite/runner.py": {
+      "size_bytes": 13727,
+      "crc32": "31df9bdc"
+    },
+    "paper_suite/storage.py": {
+      "size_bytes": 4592,
+      "crc32": "51678c8c"
+    },
+    "paper_suite/tests/__init__.py": {
+      "size_bytes": 1,
+      "crc32": "32d70693"
+    },
+    "paper_suite/tests/frozen_reference.json": {
+      "size_bytes": 1389,
+      "crc32": "d1943b37"
+    },
+    "paper_suite/tests/test_audit_regressions.py": {
+      "size_bytes": 6069,
+      "crc32": "ddc1ba79"
+    },
+    "paper_suite/tests/test_author_adapter.py": {
+      "size_bytes": 3012,
+      "crc32": "7ed42db0"
+    },
+    "paper_suite/tests/test_delta_protocol.py": {
+      "size_bytes": 2359,
+      "crc32": "48c9ddd7"
+    },
+    "paper_suite/tests/test_dp_release_r1.py": {
+      "size_bytes": 5813,
+      "crc32": "8bb6b6f4"
+    },
+    "paper_suite/tests/test_frozen_baselines.py": {
+      "size_bytes": 4169,
+      "crc32": "a6dac43d"
+    },
+    "paper_suite/tests/test_iht_stabilized.py": {
+      "size_bytes": 3481,
+      "crc32": "f1f684c0"
+    },
+    "paper_suite/tests/test_iht_unscaled.py": {
+      "size_bytes": 1073,
+      "crc32": "d274754e"
+    },
+    "paper_suite/tests/test_lasso_warning_policy.py": {
+      "size_bytes": 2010,
+      "crc32": "cc069499"
+    },
+    "paper_suite/tests/test_ldpiht_qualification_grid.py": {
+      "size_bytes": 2452,
+      "crc32": "b4ee0fb0"
+    },
+    "paper_suite/tests/test_paper_formula_corrections.py": {
+      "size_bytes": 6355,
+      "crc32": "a63bb1bc"
+    },
+    "paper_suite/tests/test_pdf_complete_contract.py": {
+      "size_bytes": 8513,
+      "crc32": "a796084d"
+    },
+    "paper_suite/tests/test_proposed_appendix_b.py": {
+      "size_bytes": 5559,
+      "crc32": "9c95d431"
+    },
+    "paper_suite/tests/test_proposed_private_release.py": {
+      "size_bytes": 5324,
+      "crc32": "fca737dc"
+    },
+    "paper_suite/tests/test_release_runner.py": {
+      "size_bytes": 1886,
+      "crc32": "6efd2d46"
+    },
+    "paper_suite/tests/test_sample_fast.py": {
+      "size_bytes": 1856,
+      "crc32": "d08edf31"
+    },
+    "paper_suite/tests/test_sample_tuning_parameters.py": {
+      "size_bytes": 2114,
+      "crc32": "f3e52e19"
+    },
+    "paper_suite/tests/test_signed_baselines.py": {
+      "size_bytes": 1722,
+      "crc32": "3e3fb6d4"
+    },
+    "paper_suite/tests/test_stage1_privacy_accountant.py": {
+      "size_bytes": 2541,
+      "crc32": "6ae194f7"
+    },
+    "paper_suite/two_slr_paper_grid.py": {
+      "size_bytes": 4906,
+      "crc32": "1d898ab9"
+    },
+    "paper_suite/validate_ldpiht.py": {
+      "size_bytes": 4285,
+      "crc32": "49e9f08c"
+    },
+    "paper_suite/vendor/__init__.py": {
+      "size_bytes": 0,
+      "crc32": "00000000"
+    },
+    "paper_suite/vendor/ma2024/LICENSE": {
+      "size_bytes": 1066,
+      "crc32": "c1687e48"
+    },
+    "paper_suite/vendor/ma2024/ULDPFS/ULDPFS.py": {
+      "size_bytes": 3200,
+      "crc32": "8ee0fde8"
+    },
+    "paper_suite/vendor/ma2024/ULDPFS/__init__.py": {
+      "size_bytes": 27,
+      "crc32": "31a0d19b"
+    },
+    "paper_suite/vendor/ma2024/ULDPFS/heavy_hitters.py": {
+      "size_bytes": 10372,
+      "crc32": "7862a46d"
+    },
+    "paper_suite/vendor/ma2024/ULDPFS/regressor.py": {
+      "size_bytes": 4663,
+      "crc32": "6b370ec5"
+    },
+    "paper_suite/vendor/ma2024/ULDPFS/selector.py": {
+      "size_bytes": 1530,
+      "crc32": "8255a4b8"
+    },
+    "paper_suite/vendor/ma2024/__init__.py": {
+      "size_bytes": 0,
+      "crc32": "00000000"
+    },
+    "paper_suite/vendor/ma2024/frozen_extraction.json": {
+      "size_bytes": 177,
+      "crc32": "baebbf81"
+    },
+    "paper_suite/vendor/ma2024/source.json": {
+      "size_bytes": 166,
+      "crc32": "c3b616fe"
+    },
+    "requirements.txt": {
+      "size_bytes": 113,
+      "crc32": "7aadc96a"
+    },
+    "scripts/__init__.py": {
+      "size_bytes": 0,
+      "crc32": "00000000"
+    },
+    "scripts/check.py": {
+      "size_bytes": 636,
+      "crc32": "ea7bd2b5"
+    },
+    "scripts/download_kelmarsh.py": {
+      "size_bytes": 2110,
+      "crc32": "df959dde"
+    },
+    "scripts/prepare_kelmarsh.py": {
+      "size_bytes": 1886,
+      "crc32": "7260b9fb"
+    },
+    "scripts/run_real.py": {
+      "size_bytes": 8575,
+      "crc32": "dae3d976"
+    },
+    "scripts/run_synthetic.py": {
+      "size_bytes": 3088,
+      "crc32": "7defafee"
+    },
+    "tests/__init__.py": {
+      "size_bytes": 0,
+      "crc32": "00000000"
+    },
+    "tests/real/__init__.py": {
+      "size_bytes": 0,
+      "crc32": "00000000"
+    },
+    "tests/real/synthetic_cases.py": {
+      "size_bytes": 454,
+      "crc32": "8300b1e2"
+    },
+    "tests/real/test_exp5.py": {
+      "size_bytes": 3798,
+      "crc32": "619ce51f"
+    },
+    "tests/real/test_new_backend.py": {
+      "size_bytes": 2392,
+      "crc32": "f6a9b99a"
+    },
+    "tests/real/test_numerical_tolerance.py": {
+      "size_bytes": 1308,
+      "crc32": "e2e5ed9b"
+    },
+    "tests/real/test_paper_threshold.py": {
+      "size_bytes": 3024,
+      "crc32": "3dae8a9b"
+    },
+    "tests/real/test_runtime_checks.py": {
+      "size_bytes": 1264,
+      "crc32": "a65aca23"
+    },
+    "tests/real/test_sample_ridge.py": {
+      "size_bytes": 4366,
+      "crc32": "17558024"
+    },
+    "tests/real/test_solver_conditioning.py": {
+      "size_bytes": 998,
+      "crc32": "c05ddbbf"
+    },
+    "tests/real/test_support_constraints.py": {
+      "size_bytes": 2404,
+      "crc32": "2a744a45"
+    },
+    "tests/real/test_two_local.py": {
+      "size_bytes": 2850,
+      "crc32": "ed1dc878"
+    },
+    "tests/test_checksums.py": {
+      "size_bytes": 1115,
+      "crc32": "0008b3af"
+    },
+    "tests/test_data_boundary.py": {
+      "size_bytes": 2628,
+      "crc32": "c017ebec"
+    },
+    "tests/test_real_entry.py": {
+      "size_bytes": 2274,
+      "crc32": "91b3e673"
+    },
+    "validation/iht_stabilized/diagnostic_reference.py": {
+      "size_bytes": 7210,
+      "crc32": "1013a164"
+    }
+  }
+}

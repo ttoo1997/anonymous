@@ -1,0 +1,17 @@
+{
+  "metadata_file": "manifest.json",
+  "arrays": {
+    "train": [
+      "train_x.npy",
+      "train_y.npy",
+      "train_ids.npy",
+      "train_days.npy"
+    ],
+    "test": [
+      "test_x.npy",
+      "test_y.npy",
+      "test_ids.npy",
+      "test_days.npy"
+    ]
+  }
+}

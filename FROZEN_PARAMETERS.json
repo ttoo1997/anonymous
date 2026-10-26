@@ -1,0 +1,42 @@
+{
+  "version": "SDP_TABLE2_TABLE5_ALIGNED_20261021",
+  "profiles": {
+    "u2r": {
+      "k": 12,
+      "rho": 0.05,
+      "norm": 1.0,
+      "support_cap_policy": "min_k_m_minus_2"
+    },
+    "2slr": {
+      "local_selected": 2,
+      "k": 2,
+      "B": 1.0,
+      "num_bins": 16
+    },
+    "ldpiht": {
+      "k": 8,
+      "iterations": 5,
+      "step_size": 0.1,
+      "x_clip": 1.0,
+      "y_clip": 0.5,
+      "sparsity": 8,
+      "gradient_clip": 4.0,
+      "radius_mode": "public_iterate",
+      "vectorized": true
+    },
+    "lasso": {},
+    "sample_sdp": {
+      "clip_constant": 0.03,
+      "threshold_constant": 1.0,
+      "solver": "ridge",
+      "ridge_noise_multiplier": 4.0,
+      "threshold_noise_scale": 0.25,
+      "threshold_kappa_infinity": 1.0,
+      "threshold_scale_source": "public_empirical_reference_20261021"
+    }
+  },
+  "threshold_scale_note": "sigma=.25 and kappa_infinity=1 are fixed public reference scales, not estimates or verified model bounds for Kelmarsh.",
+  "delta": 1e-05,
+  "no_epsilon_division_by_m": true,
+  "release_scope": "Frozen estimators and reproducible experiment entry points."
+}

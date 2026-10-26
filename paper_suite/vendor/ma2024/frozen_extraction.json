@@ -1,0 +1,4 @@
+{
+  "method": "retained author class/function bodies verbatim; unused Lasso/PostLasso/interactive variants removed",
+  "adapter_change": "abs(y@X) in Screening subclass only"
+}

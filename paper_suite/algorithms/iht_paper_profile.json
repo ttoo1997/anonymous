@@ -1,0 +1,101 @@
+{
+  "source_algorithm": "Zhu et al., ICLR 2024, Algorithm 2",
+  "selected_profile": "zhu24_algorithm2_ma24_grid_fixed_T2_eta0p01_tau2_k10_v3_unscaled",
+  "empirical_grid_source": "Ma et al., ICML 2024, Appendix E.1",
+  "ma24_reported_grid": {
+    "iterations_T": [
+      2,
+      5,
+      10,
+      20,
+      50
+    ],
+    "step_size_eta": [
+      0.01,
+      0.1,
+      1.0
+    ],
+    "tau1": [
+      2.0,
+      4.0,
+      8.0
+    ],
+    "tau2": [
+      2.0,
+      4.0,
+      8.0
+    ],
+    "k_prime": [
+      5,
+      10,
+      20,
+      50
+    ]
+  },
+  "fixed_selected_values": {
+    "iterations": 2,
+    "step_size": 0.01,
+    "x_clip_tau1": 2.0,
+    "y_clip_tau2": 2.0,
+    "sparsity_k_prime": 10
+  },
+  "selection_rule": "Fixed Ma24 Appendix-E.1 parameter values; applied consistently across epsilon values and seeds; no response scaling",
+  "theorem_reference_retained": "paper_reference_parameters() still provides T=ceil(log N), k'=8k, eta=1, tau1=tau2=sqrt(log N) for mechanism diagnostics only",
+  "caveat": "Core estimator is Zhu24 Algorithm 2. Parameters are an empirical Ma24-grid point, not Zhu24 Theorem-7 numerical constants.",
+  "qualification_grid": {
+    "purpose": "Optional synthetic parameter-grid diagnostics; does not change the selected profile",
+    "epsilon": 4.0,
+    "recommended_validation_seeds": [
+      20261015,
+      20261016
+    ],
+    "fixed_tau1_tau2": [
+      2.0,
+      2.0
+    ],
+    "profiles": [
+      {
+        "T": 2,
+        "eta": 0.01,
+        "k_prime": 10
+      },
+      {
+        "T": 5,
+        "eta": 0.01,
+        "k_prime": 10
+      },
+      {
+        "T": 10,
+        "eta": 0.01,
+        "k_prime": 10
+      },
+      {
+        "T": 20,
+        "eta": 0.01,
+        "k_prime": 10
+      },
+      {
+        "T": 2,
+        "eta": 0.1,
+        "k_prime": 10
+      },
+      {
+        "T": 10,
+        "eta": 0.1,
+        "k_prime": 10
+      },
+      {
+        "T": 20,
+        "eta": 0.1,
+        "k_prime": 10
+      },
+      {
+        "T": 2,
+        "eta": 0.01,
+        "k_prime": 5
+      }
+    ],
+    "selection_objective": "mean relative L2 coefficient error on synthetic evaluation samples",
+    "provenance": "every point is contained in Ma24 Appendix-E.1 reported LDPIHT grid"
+  }
+}
